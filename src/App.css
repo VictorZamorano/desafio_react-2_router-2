@@ -1,0 +1,28 @@
+.hwallpaper {
+	background-image: url("/homewallpaper.jpg");
+	background-size: cover;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	min-height: 94vh;
+}
+
+nav .pokedex {
+	width: 30px;
+}
+
+.active {
+	font-weight: bolder;
+}
+
+.pWallpaper {
+	background-image: url("/pwallpaper.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 94vh;
+}
+
+.cb1 {
+	background-color: rgba(225, 225, 225, 0.1);
+	backdrop-filter: blur(1rem);
+}
