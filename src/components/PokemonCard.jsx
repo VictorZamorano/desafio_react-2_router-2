@@ -10,7 +10,7 @@ export default function PokemonCard({ pokemon }) {
 						<div className="col-md-6 d-flex flex-column justify-content-center">
 							<img
 								/* IMG PKMNS */
-								src={pokemon.sprites.other.dream_world.front_default}
+								src={pokemon.sprites.other["official-artwork"].front_default}
 								className="img-fluid rounded-start"
 								alt={pokemon.name}
 								style={{ maxHeight: "15rem" }}
