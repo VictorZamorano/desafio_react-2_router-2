@@ -7,18 +7,22 @@ export default function PokemonCard({ pokemon }) {
 					style={{ minHeight: "20rem", width: "40rem" }}
 				>
 					<div className="row g-0">
-						<div className="col-md-4 d-flex flex-column justify-content-center">
+						<div className="col-md-6 d-flex flex-column justify-content-center">
 							<img
 								/* IMG PKMNS */
 								src={pokemon.sprites.other.dream_world.front_default}
 								className="img-fluid rounded-start"
 								alt={pokemon.name}
+								style={{ maxHeight: "15rem" }}
 							/>
-							<div className="container d-flex justify-content-around mt-4">
+							<div className="container d-flex justify-content-around mt-4 typesPkmn">
 								{/* TYPE PKMNS */}
 								{pokemon.types.map((item) => {
 									return (
-										<p key={item.type.url} className="text-light fw-bold fs-4">
+										<p
+											key={item.type.url}
+											className={"text-light fw-bold fs-4 " + item.type.name}
+										>
 											{item.type.name.charAt(0).toUpperCase() +
 												item.type.name.substr(1).toLowerCase()}{" "}
 										</p>
@@ -26,7 +30,7 @@ export default function PokemonCard({ pokemon }) {
 								})}
 							</div>
 						</div>
-						<div className="col-md-8">
+						<div className="col-md-6">
 							<div className="card-body">
 								<h5 className="card-title text-center text-light fs-3">
 									{/* NAME PKMNS */}

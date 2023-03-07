@@ -31,7 +31,7 @@ export default function Pokemons() {
 					<option value="0">Elige el pokemon</option>
 					{pokemons?.map((pokemon) => {
 						return (
-							<option value={pokeId(pokemon.url)} key={pokeId(pokemon.url)}>
+							<option value={pokemon.name} key={pokeId(pokemon.url)}>
 								{pokeId(pokemon.url)} -{" "}
 								{pokemon.name.charAt(0).toUpperCase() +
 									pokemon.name.substr(1).toLowerCase()}

@@ -26,3 +26,98 @@ nav .pokedex {
 	background-color: rgba(225, 225, 225, 0.1);
 	backdrop-filter: blur(1rem);
 }
+
+/* POKEMON TYPES */
+
+.normal {
+	background-color: #a8a77a;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+.fighting {
+	background-color: #c22e28;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+.flying {
+	background-color: #a98ff3;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+.poison {
+	background-color: #a33ea1;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+.ground {
+	background-color: #e2bf65;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+.rock {
+	background-color: #b6a136;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+.bug {
+	background-color: #a6b91a;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+
+.ghost {
+	background-color: #735797;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+.steel {
+	background-color: #b7b7ce;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+.fire {
+	background-color: #ee8130;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+.water {
+	background-color: #6390f0;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+.grass {
+	background-color: #7ac74c;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+.electric {
+	background-color: #f7d02c;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+
+.psychic {
+	background-color: #f95587;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+.ice {
+	background-color: #96d9d6;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+.dragon {
+	background-color: #6f35fc;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+.dark {
+	background-color: #705746;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+.fairy {
+	background-color: #d685ad;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
